@@ -1,0 +1,22 @@
+<div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuCategories();"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});">
+          <div id="specials-tile"><span>specials</span></div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/s7oa2M5Y75VgoCBFA" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://maps.zomato.com/php/staticmap?center=22.5524600857,88.3526187390&amp;maptype=zomato&amp;markers=22.5524600857,88.3526187390,pin_res32&amp;sensor=false&amp;scale=2&amp;zoom=16&amp;language=en&amp;size=240x150&amp;size=400x240&amp;size=650x250" loading="lazy" class="s1isp7-4 bBALuk" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>map</span>
+          </div>
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->
